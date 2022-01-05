@@ -1,6 +1,9 @@
 .hero {
   background-image: 
-  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/fon/fon-min.jpg);
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/fon/fon2xx.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .conthero {
   padding-top: 219px;

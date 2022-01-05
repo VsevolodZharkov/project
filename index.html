@@ -16,31 +16,31 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
-        <div class="conteiner headcont">
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__list-point pos-abs">
-                        <a href="" class="header__list-point-link current">Главная</a>
-                    </li>
-                    <li class="header__list-point">
-                        <a href="" class="header__list-point-link">Наши проекты</a>
-                    </li>
-                    <li class="header__list-point">
-                        <a href="" class="header__list-point-link">Услуги</a>
-                    </li>
-                    <li class="header__list-point">
-                        <a href="" class="header__list-point-link">Новости</a>
-                    </li>
-                    <li class="header__list-point">
-                        <a href="" class="header__list-point-link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
         <section class="hero">
+          <header>
+            <div class="conteiner headcont">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-point pos-abs">
+                            <a href="" class="header__list-point-link current">Главная</a>
+                        </li>
+                        <li class="header__list-point">
+                            <a href="" class="header__list-point-link">Наши проекты</a>
+                        </li>
+                        <li class="header__list-point">
+                            <a href="" class="header__list-point-link">Услуги</a>
+                        </li>
+                        <li class="header__list-point">
+                            <a href="" class="header__list-point-link">Новости</a>
+                        </li>
+                        <li class="header__list-point">
+                            <a href="" class="header__list-point-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+          </header>
             <div class="conteiner conthero">
                 <p class="hero__pre-text-title">Передовая IT студия</p>
                 <h1 class="hero__title">Мы создаем легкие решения<br>
@@ -98,6 +98,8 @@
         </section>
         <section class="about-us">
             <div class="conteiner contabout">
+              <div class="divaboutgroup">
+              <div class="divcontabout">
                 <h2 class="about-us__title">
                     Высокие стандарты разработки
                 </h2>
@@ -107,7 +109,9 @@
                     стандартной "рыбой" для текстов на латинице с начала XVI века. 
                 </p>
                 <a class="about-us__link" href="">Подробнее о компании</a>
-                <img src="" alt="two people are discussing work issues">
+              </div>
+                <img class="about-us__img" src="./img/ctandar/work-min.jpg" alt="two people are discussing work issues">
+              </div>
                 <ul class="list-abo-us">
                     <li class="list-abo-us__point">
                         <svg class="list-abo-us__svg">
@@ -163,14 +167,18 @@
             </div>
         </section>
         <section class="our-work">
-            <div class="conteiner">
+            <div class="conteiner contour">
+                <div class="contdiv">
                 <h2 class="our-work__title">
                     Наши работы, на которых мы специализируемся
                 </h2>
-                <button class="our-work__btn" type="button">Все услуги</button>
+                <div class="div__btn">
+                  <button class="our-work__btn" type="button">Все услуги</button>
+                </div>
+                </div>
                 <ul class="list-our-work">
                     <li class="list-our-work__point">
-                        <img src="" alt="people working">
+                        <img class="our-work__img" src="./img/out work/ourwork-min.jpg" alt="people working">
                         <h3 class="list-our-work__title"><span class="list-our-work__span">01.</span>Исследование и упаковка</h3>
                         <p class="list-our-work__text">
                             Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
@@ -179,7 +187,7 @@
                         <a class="list-our-work__link" href="">Подробнее</a>
                     </li>
                     <li class="list-our-work__point">
-                        <img src="" alt="people working">
+                        <img class="our-work__img"src="./img/out work/ourwork-min.jpg" alt="people working">
                         <h3 class="list-our-work__title"><span class="list-our-work__span">01.</span>Исследование и упаковка</h3>
                         <p class="list-our-work__text">
                             Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
@@ -188,7 +196,7 @@
                         <a class="list-our-work__link" href="">Подробнее</a>
                     </li>
                     <li class="list-our-work__point">
-                        <img src="" alt="people working">
+                        <img class="our-work__img"src="./img/out work/ourwork-min.jpg" alt="people working">
                         <h3 class="list-our-work__title"><span class="list-our-work__span">01.</span>Исследование и упаковка</h3>
                         <p class="list-our-work__text">
                             Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
@@ -200,7 +208,7 @@
             </div>
         </section>
         <section class="all-projects">
-            <div class="conteiner">
+            <div class="conteiner contall-proj">
                 <h2 class="all-projects__tetle">Наши проекты</h2>
                 <p class="all-projects__text">
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
